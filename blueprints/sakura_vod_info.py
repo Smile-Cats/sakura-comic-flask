@@ -1,5 +1,4 @@
 from flask import Blueprint, request, jsonify, Response, url_for
-from comic_sakura.extensions import db
 import os
 from comic_sakura.models import *
 
@@ -28,8 +27,8 @@ def get_vod_list():
     type_name = request.args.get('vod_class')  # 查询参数 视频二级类型
     vod_year = request.args.get('vod_year')  # 查询参数 视频年份
     keyword = request.args.get('keyword')  # 关键词
-    if page > 10:
-        return jsonify([])
+    # if page > 10:
+    #     return jsonify([])
     # 有type_name查type_name 没有查type_id_list
     if type_name:
         movs = MovDetail.query.filter(MovDetail.type_name == type_name)
@@ -55,7 +54,7 @@ def get_vod_list():
     if keyword:
         movs = movs.filter(MovDetail.vod_name.like(f"%{keyword}%"))
 
-    movs = movs.order_by(MovDetail.vod_time).paginate(page=page, per_page=12).items
+    movs = movs.order_by(MovDetail.vod_time.desc()).paginate(page=page, per_page=12).items
 
     vod_list = []
     for mov in movs:
@@ -63,7 +62,7 @@ def get_vod_list():
         #     dict(vod_id=mov.vod_id, vod_pic=url_for('vod_bp.get_img_info', img=f"{mov.vod_id}.jpg", _external=True),
         #          vod_name=mov.vod_name, vod_remarks=mov.vod_remarks))
         vod_list.append(
-            dict(vod_id=mov.vod_id, vod_pic=mov.vod_pic,
+            dict(vod_id=mov.id, vod_pic=mov.vod_pic,
                  vod_name=mov.vod_name, vod_remarks=mov.vod_remarks))
     return jsonify(vod_list)
 
@@ -75,7 +74,7 @@ def get_vod_detail():
     :return: json
     '''
     vod_id = request.args.get('vod_id', 0)
-    mov = MovDetail.query.filter(MovDetail.vod_id == vod_id).first()
+    mov = MovDetail.query.filter(MovDetail.id == vod_id).first()
     if mov:
         if mov.vod_content:
             mov.vod_content = mov.vod_content.replace('<p>', '') \
@@ -103,14 +102,3 @@ def get_img_info(img):
         img = f.read()
     resp = Response(img, mimetype="image/jpeg")
     return resp
-
-
-
-
-
-@vod_bp.after_request
-def handler_after_request(response):
-    # response.headers['Access-Control-Allow-Origin'] = "*"  # 设置允许跨域
-    response.headers['Access-Control-Allow-Credentials'] = 'true'
-    # response.headers['Access-Control-Allow-Methods'] = 'PUT,GET,POST,DELETE'
-    return response

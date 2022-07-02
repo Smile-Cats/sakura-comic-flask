@@ -1,5 +1,12 @@
+import datetime
+
 from .extensions import db
+from werkzeug.security import generate_password_hash, check_password_hash
+from itsdangerous import TimedSerializer as Serializer
+from itsdangerous import SignatureExpired, BadSignature
 from sqlalchemy.dialects.mysql import LONGTEXT
+from flask import current_app
+
 
 class MovType(db.Model):
     __tablename__ = 'sakura_movtype'
@@ -110,4 +117,38 @@ class MovDetail(db.Model):
     vod_writer = db.Column(db.Text)
     vod_year = db.Column(db.Text)
     this_mov_type = db.relationship('MovType', back_populates='this_type_movie_details')
+    comments = db.relationship('Comment', back_populates='mov_detail', cascade='all, delete-orphan')
 
+
+class User(db.Model):
+    __tablename__ = 'sakura_user'
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(30))
+    password_hash = db.Column(db.String(128))
+
+    comments = db.relationship('Comment', back_populates='user', cascade='all, delete-orphan')  # 用户信息被删除后 评论也一起被删除
+
+    def set_password(self, password):
+        # 生成hash后的密码
+        self.password_hash = generate_password_hash(password)
+
+    def validate_password(self, password):
+        # 将hash密码和密码进行比对
+        return check_password_hash(self.password_hash, password)
+
+
+class Comment(db.Model):
+    __tablename__ = 'sakura_comment'
+    id = db.Column(db.Integer, primary_key=True)
+    body = db.Column(db.Text)
+    reviewed = db.Column(db.Boolean, default=True)  # 该评论是否通过审核
+    timestamp = db.Column(db.DateTime, default=datetime.datetime.utcnow, index=True)
+
+    user_id = db.Column(db.Integer, db.ForeignKey('sakura_user.id'))
+    replied_id = db.Column(db.Integer, db.ForeignKey('sakura_comment.id'))  # 将replied_id定义为外键
+    movdetail_id = db.Column(db.Integer, db.ForeignKey('sakura_movdetail.id'))
+
+    user = db.relationship('User', back_populates='comments')
+    mov_detail = db.relationship('MovDetail', back_populates='comments')
+    replies = db.relationship('Comment', back_populates='replied', cascade='all, delete-orphan')  # 父评论，对应一,父评论被删除子评论也会删除
+    replied = db.relationship('Comment', back_populates='replies', remote_side=[id])  # 子评论，对应多，remote_side参数指定了自己代表多

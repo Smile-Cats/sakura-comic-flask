@@ -5,9 +5,8 @@ import pymysql
 import datetime
 import pandas as pd
 from sqlalchemy import create_engine
-from settings import get_config
-from itsdangerous import TimedSerializer as Serializer
-from itsdangerous import SignatureExpired, BadSignature
+from comic_sakura.settings import get_config
+
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s %(levelname)s %(message)s")
