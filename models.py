@@ -127,6 +127,7 @@ class User(db.Model):
     password_hash = db.Column(db.String(128))
 
     comments = db.relationship('Comment', back_populates='user', cascade='all, delete-orphan')  # 用户信息被删除后 评论也一起被删除
+    collections = db.relationship('UserCollection', back_populates='user', cascade='all, delete-orphan')
 
     def set_password(self, password):
         # 生成hash后的密码
@@ -152,3 +153,12 @@ class Comment(db.Model):
     mov_detail = db.relationship('MovDetail', back_populates='comments')
     replies = db.relationship('Comment', back_populates='replied', cascade='all, delete-orphan')  # 父评论，对应一,父评论被删除子评论也会删除
     replied = db.relationship('Comment', back_populates='replies', remote_side=[id])  # 子评论，对应多，remote_side参数指定了自己代表多
+
+
+class UserCollection(db.Model):
+    __tablename__ = 'sakura_user_collection'
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('sakura_user.id'))
+    movdetail_id_list = db.Column(LONGTEXT)
+
+    user = db.relationship('User', back_populates='collections')

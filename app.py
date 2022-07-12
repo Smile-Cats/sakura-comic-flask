@@ -9,6 +9,7 @@ from comic_sakura.extensions import db, cors, scheduler
 from comic_sakura.blueprints.sakura_vod_info import vod_bp
 from comic_sakura.blueprints.comment import comment_bp
 from comic_sakura.blueprints.auth import auth_bp
+from comic_sakura.blueprints.video_collection import vd_col_bp
 from comic_sakura.tasks import SakuarDataSchedule
 
 
@@ -25,6 +26,7 @@ def create_app(env: Union[str, None] = None) -> Flask:
     app.register_blueprint(vod_bp)
     app.register_blueprint(auth_bp)
     app.register_blueprint(comment_bp)
+    app.register_blueprint(vd_col_bp)
     register_commands(app)
     register_process_request(app)
     return app

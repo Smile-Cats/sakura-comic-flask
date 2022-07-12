@@ -41,4 +41,4 @@ def validate_token(token):
 
 @auth.error_handler
 def error_handler():
-    return jsonify({'code': 401, 'message': '401 Unauthorized Access'})
+    return jsonify(dict(data={'code': 401, 'message': '401 Unauthorized Access'}))
