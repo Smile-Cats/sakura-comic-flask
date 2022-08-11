@@ -1,0 +1,462 @@
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.200.53:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 10:49:59] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 10:49:59] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 10:49:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 10:50:59] "GET /collection/show HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:23] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:23] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:24] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:24] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:24] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:24] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:24] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:24] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:25] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:25] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:31] "OPTIONS /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:31] "GET /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:31] "OPTIONS /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 10:56:31] "GET /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:19] "OPTIONS /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:21] "OPTIONS /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:31] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:31] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:31] "OPTIONS /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:32] "OPTIONS /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.200.53:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 11:16:40] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:40] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:40] "OPTIONS /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:41] "GET /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:41] "OPTIONS /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:41] "GET /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:42] "OPTIONS /vod_list?page=1&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:42] "GET /vod_list?page=1&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:43] "OPTIONS /vod_list?page=2&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:43] "GET /vod_list?page=2&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:43] "OPTIONS /vod_list?page=1&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:43] "GET /vod_list?page=1&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:44] "OPTIONS /vod_list?page=2&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:44] "GET /vod_list?page=2&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:44] "GET /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:16:45] "GET /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:42] "OPTIONS /vod_list?page=1&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:42] "GET /vod_list?page=1&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:43] "OPTIONS /vod_list?page=1&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:43] "GET /vod_list?page=1&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:43] "OPTIONS /vod_list?page=1&movtype=3&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:44] "GET /vod_list?page=1&movtype=3&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:45] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:45] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:45] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:45] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:46] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:46] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:46] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:46] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:52] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:52] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:52] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:52] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:52] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:52] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:52] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:53] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:53] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:17:53] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:56] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:56] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:56] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:56] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:56] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:57] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:57] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:18:57] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:01] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:01] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:01] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:01] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:01] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:02] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:56] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:56] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:56] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:56] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:56] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:56] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:56] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:19:57] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:00] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:00] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:00] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:00] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:00] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:01] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:11] "OPTIONS /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:11] "GET /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:11] "OPTIONS /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:11] "GET /vod_list?page=2&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:11] "OPTIONS /vod_list?page=1&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:12] "GET /vod_list?page=1&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:12] "OPTIONS /vod_list?page=2&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:12] "OPTIONS /vod_list?page=1&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:12] "GET /vod_list?page=1&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:12] "GET /vod_list?page=2&movtype=1&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "OPTIONS /vod_list?page=2&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "OPTIONS /vod_list?page=1&movtype=3&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "GET /vod_list?page=2&movtype=2&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "GET /vod_list?page=1&movtype=3&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "OPTIONS /vod_list?page=2&movtype=3&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "GET /vod_list?page=2&movtype=3&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:13] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:14] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 11:20:14] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:00] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:00] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:00] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:00] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:00] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:00] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:00] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:01] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:01] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 13:13:01] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:02] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:02] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:03] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:03] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:03] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:03] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:03] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:03] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:03] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 14:09:04] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.200.53:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 15:36:46] "OPTIONS /vod_list?page=1&movtype=0&keyword=黑&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:46] "GET /vod_list?page=1&movtype=0&keyword=黑&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:46] "OPTIONS /vod_list?page=2&movtype=0&keyword=黑&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:47] "GET /vod_list?page=2&movtype=0&keyword=黑&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:56] "OPTIONS /vod_list?page=1&movtype=0&keyword=fate&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:57] "GET /vod_list?page=1&movtype=0&keyword=fate&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:57] "OPTIONS /vod_list?page=2&movtype=0&keyword=fate&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:57] "[33mGET /vod_list?page=2&movtype=0&keyword=fate&vod_area=&vod_class=&vod_year= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 15:36:57] "OPTIONS /vod_list?page=3&movtype=0&keyword=fate&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:36:57] "[33mGET /vod_list?page=3&movtype=0&keyword=fate&vod_area=&vod_class=&vod_year= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 15:37:08] "OPTIONS /vod_list?page=1&movtype=0&keyword=哈利&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:37:08] "GET /vod_list?page=1&movtype=0&keyword=哈利&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:37:12] "OPTIONS /vod_list?page=1&movtype=0&keyword=哈&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:37:12] "GET /vod_list?page=1&movtype=0&keyword=哈&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:37:20] "OPTIONS /vod_list?page=1&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:37:20] "GET /vod_list?page=1&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:37:21] "OPTIONS /vod_list?page=2&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:37:21] "GET /vod_list?page=2&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.200.53:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 15:48:22] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:22] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:22] "OPTIONS /vod_list?page=1&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:22] "GET /vod_list?page=1&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:27] "OPTIONS /vod_list?page=2&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:27] "GET /vod_list?page=2&movtype=0&keyword=狂&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:33] "OPTIONS /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:33] "GET /vod_list?page=1&movtype=4&keyword=&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:42] "OPTIONS /vod_list?page=1&movtype=0&keyword=施耐德&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:42] "GET /vod_list?page=1&movtype=0&keyword=施耐德&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:50] "OPTIONS /vod_list?page=1&movtype=0&keyword=冰冰&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:50] "GET /vod_list?page=1&movtype=0&keyword=冰冰&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:58] "OPTIONS /vod_list?page=2&movtype=0&keyword=冰冰&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:48:58] "[33mGET /vod_list?page=2&movtype=0&keyword=冰冰&vod_area=&vod_class=&vod_year= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "OPTIONS /collection/is_collection?vod_id=20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "OPTIONS /vod_detail?vod_id=20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "OPTIONS /show/comment/20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "OPTIONS /collection/is_collection?vod_id=20253&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "GET /collection/is_collection?vod_id=20253 HTTP/1.1" 200 -
+Exception on /vod_detail [GET]
+Traceback (most recent call last):
+  File "D:\Demo\flask-comic\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Demo\flask-comic\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Demo\flask-comic\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\Demo\flask-comic\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Demo\flask-comic\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Demo\flask-comic\comic_sakura\blueprints\sakura_vod_info.py", line 86, in get_vod_detail
+    for play_url_set in mov['vod_play_url'].split('#'):
+TypeError: 'MovDetail' object is not subscriptable
+127.0.0.1 - - [08/Aug/2022 15:49:02] "GET /collection/is_collection?vod_id=20253&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "GET /show/comment/20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:49:02] "[35m[1mGET /vod_detail?vod_id=20253 HTTP/1.1[0m" 500 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.200.53:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 15:50:02] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:02] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:02] "OPTIONS /collection/is_collection?vod_id=20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:02] "OPTIONS /vod_detail?vod_id=20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:02] "OPTIONS /show/comment/20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:03] "OPTIONS /collection/is_collection?vod_id=20253&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:03] "GET /vod_detail?vod_id=20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:03] "GET /show/comment/20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:03] "GET /collection/is_collection?vod_id=20253&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:03] "GET /collection/is_collection?vod_id=20253 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:20] "OPTIONS /vod_list?page=1&movtype=0&keyword=新海诚&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:20] "GET /vod_list?page=1&movtype=0&keyword=新海诚&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "OPTIONS /collection/is_collection?vod_id=19064 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "OPTIONS /vod_detail?vod_id=19064 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "OPTIONS /show/comment/19064 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "OPTIONS /collection/is_collection?vod_id=19064&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "GET /show/comment/19064 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "GET /collection/is_collection?vod_id=19064&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "GET /collection/is_collection?vod_id=19064 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:26] "GET /vod_detail?vod_id=19064 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "OPTIONS /vod_list?page=2&movtype=0&keyword=新海诚&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "[33mGET /vod_list?page=2&movtype=0&keyword=新海诚&vod_area=&vod_class=&vod_year= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "OPTIONS /collection/is_collection?vod_id=22701 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "OPTIONS /vod_detail?vod_id=22701 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "OPTIONS /show/comment/22701 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "OPTIONS /collection/is_collection?vod_id=22701&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "GET /collection/is_collection?vod_id=22701 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "GET /show/comment/22701 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "GET /vod_detail?vod_id=22701 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:31] "GET /collection/is_collection?vod_id=22701&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 15:50:38] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:02:20] "OPTIONS /vod_list?page=1&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:02:21] "OPTIONS /vod_list?page=2&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:02:40] "GET /vod_list?page=1&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:02:40] "[33mGET /vod_list?page=2&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1[0m" 404 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.200.53:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 16:22:47] "OPTIONS /vod_list?page=1&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:47] "GET /vod_list?page=1&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:48] "OPTIONS /vod_list?page=2&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:48] "[33mGET /vod_list?page=2&movtype=0&keyword=火影&vod_area=&vod_class=&vod_year= HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Aug/2022 16:22:51] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 16:22:52] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 17:07:53] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:53] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:53] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:53] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:53] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:53] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:53] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:54] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:54] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:07:54] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [08/Aug/2022 17:10:13] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:13] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:13] "OPTIONS /collection/is_collection?vod_id=22822 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:13] "OPTIONS /vod_detail?vod_id=22822 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:13] "OPTIONS /show/comment/22822 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:13] "GET /collection/is_collection?vod_id=22822 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:13] "GET /vod_detail?vod_id=22822 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:13] "GET /show/comment/22822 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:21] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:47] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:10:48] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:11:55] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:11:55] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:01] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:01] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:01] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:01] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:01] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:02] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:02] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:02] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:02] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:02] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:08] "OPTIONS /collection/show?page=1&user_id=undefined HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:08] "GET /collection/show?page=1&user_id=undefined HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:09] "OPTIONS /collection/show?page=2&user_id=undefined HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:09] "GET /collection/show?page=2&user_id=undefined HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:13] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:13] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "OPTIONS /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "GET /auth/user HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "OPTIONS /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "OPTIONS /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "OPTIONS /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "OPTIONS /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "GET /vod_list?page=1&movtype=3 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:14] "GET /vod_list?page=1&movtype=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:15] "GET /vod_list?page=1&movtype=1 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:15] "GET /vod_list?page=1&movtype=4 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:18] "OPTIONS /collection/show?page=1&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:18] "GET /collection/show?page=1&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:18] "OPTIONS /collection/show?page=2&user_id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2022 17:12:18] "GET /collection/show?page=2&user_id=2 HTTP/1.1" 200 -
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Running job "register_scheduler_job.<locals>.scheduler_update_sakura (trigger: cron[day='*', hour='10', minute='47', second='1'], next run at: 2022-08-09 10:47:01 CST)" (scheduled at 2022-08-09 10:47:01+08:00)
+Start Update Sakura Data
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=1
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=2
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=3
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=4
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=5
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=6
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=7
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=8
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=9
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=10
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=11
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=12
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=13
+数据已更新完毕: 停止抓取
+Finish Update Sakura Data
+Job "register_scheduler_job.<locals>.scheduler_update_sakura (trigger: cron[day='*', hour='10', minute='47', second='1'], next run at: 2022-08-10 10:47:01 CST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+Running job "register_scheduler_job.<locals>.scheduler_update_sakura (trigger: cron[day='*', hour='10', minute='47', second='1'], next run at: 2022-08-10 10:47:01 CST)" (scheduled at 2022-08-10 10:47:01+08:00)
+Start Update Sakura Data
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=1
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=2
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=3
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=4
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=5
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=6
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=7
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=8
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=9
+数据已更新完毕: 停止抓取
+Finish Update Sakura Data
+Job "register_scheduler_job.<locals>.scheduler_update_sakura (trigger: cron[day='*', hour='10', minute='47', second='1'], next run at: 2022-08-11 10:47:01 CST)" executed successfully
+Running job "register_scheduler_job.<locals>.scheduler_update_sakura (trigger: cron[day='*', hour='10', minute='47', second='1'], next run at: 2022-08-11 10:47:01 CST)" (scheduled at 2022-08-11 10:47:01+08:00)
+Start Update Sakura Data
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=1
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=2
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=3
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=4
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=5
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=6
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=7
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=8
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=9
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=10
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=11
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=12
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=13
+Updating: https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&pg=14
+数据已更新完毕: 停止抓取
+Finish Update Sakura Data
+Job "register_scheduler_job.<locals>.scheduler_update_sakura (trigger: cron[day='*', hour='10', minute='47', second='1'], next run at: 2022-08-12 10:47:01 CST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "register_scheduler_job.<locals>.scheduler_update_sakura" to job store "default"
+Scheduler started
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

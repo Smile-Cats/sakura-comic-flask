@@ -1,0 +1,389 @@
+[2022-08-09 09:36:41 +0800] [1055656] [INFO] Starting gunicorn 20.1.0
+[2022-08-09 09:36:41 +0800] [1055656] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-08-09 09:36:41 +0800] [1055656] [ERROR] Retrying in 1 second.
+[2022-08-09 09:36:42 +0800] [1055656] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-08-09 09:36:42 +0800] [1055656] [ERROR] Retrying in 1 second.
+[2022-08-09 09:36:43 +0800] [1055656] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-08-09 09:36:43 +0800] [1055656] [ERROR] Retrying in 1 second.
+[2022-08-09 09:36:44 +0800] [1055656] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-08-09 09:36:44 +0800] [1055656] [ERROR] Retrying in 1 second.
+[2022-08-09 09:36:45 +0800] [1055656] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-08-09 09:36:45 +0800] [1055656] [ERROR] Retrying in 1 second.
+[2022-08-09 09:36:46 +0800] [1055656] [ERROR] Can't connect to ('0.0.0.0', 5000)
+[2022-08-09 09:40:07 +0800] [1055705] [INFO] Starting gunicorn 20.1.0
+[2022-08-09 09:40:07 +0800] [1055705] [INFO] Listening at: http://0.0.0.0:5000 (1055705)
+[2022-08-09 09:40:07 +0800] [1055705] [INFO] Using worker: eventlet
+[2022-08-09 09:40:07 +0800] [1055708] [INFO] Booting worker with pid: 1055708
+[2022-08-09 09:40:07 +0800] [1055709] [INFO] Booting worker with pid: 1055709
+[2022-08-09 09:40:07 +0800] [1055710] [INFO] Booting worker with pid: 1055710
+[2022-08-09 09:40:07 +0800] [1055711] [INFO] Booting worker with pid: 1055711
+[2022-08-09 09:40:08 +0800] [1055709] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from comic_sakura.app.settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'comic_sakura'
+[2022-08-09 09:40:08 +0800] [1055708] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from comic_sakura.app.settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'comic_sakura'
+[2022-08-09 09:40:08 +0800] [1055708] [INFO] Worker exiting (pid: 1055708)
+[2022-08-09 09:40:08 +0800] [1055709] [INFO] Worker exiting (pid: 1055709)
+[2022-08-09 09:40:08 +0800] [1055710] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from comic_sakura.app.settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'comic_sakura'
+[2022-08-09 09:40:08 +0800] [1055710] [INFO] Worker exiting (pid: 1055710)
+[2022-08-09 09:40:08 +0800] [1055711] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from comic_sakura.app.settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'comic_sakura'
+[2022-08-09 09:40:08 +0800] [1055711] [INFO] Worker exiting (pid: 1055711)
+[2022-08-09 09:40:08 +0800] [1055705] [WARNING] Worker with pid 1055710 was terminated due to signal 15
+[2022-08-09 09:40:08 +0800] [1055705] [WARNING] Worker with pid 1055711 was terminated due to signal 15
+[2022-08-09 09:40:08 +0800] [1055705] [WARNING] Worker with pid 1055708 was terminated due to signal 15
+[2022-08-09 09:40:08 +0800] [1055705] [INFO] Shutting down: Master
+[2022-08-09 09:40:08 +0800] [1055705] [INFO] Reason: Worker failed to boot.
+[2022-08-09 09:47:50 +0800] [1055763] [INFO] Starting gunicorn 20.1.0
+[2022-08-09 09:47:50 +0800] [1055763] [INFO] Listening at: http://0.0.0.0:5000 (1055763)
+[2022-08-09 09:47:50 +0800] [1055763] [INFO] Using worker: eventlet
+[2022-08-09 09:47:50 +0800] [1055766] [INFO] Booting worker with pid: 1055766
+[2022-08-09 09:47:50 +0800] [1055767] [INFO] Booting worker with pid: 1055767
+[2022-08-09 09:47:50 +0800] [1055768] [INFO] Booting worker with pid: 1055768
+[2022-08-09 09:47:50 +0800] [1055769] [INFO] Booting worker with pid: 1055769
+[2022-08-09 09:47:51 +0800] [1055766] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'settings'
+[2022-08-09 09:47:51 +0800] [1055766] [INFO] Worker exiting (pid: 1055766)
+[2022-08-09 09:47:51 +0800] [1055767] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'settings'
+[2022-08-09 09:47:51 +0800] [1055767] [INFO] Worker exiting (pid: 1055767)
+[2022-08-09 09:47:51 +0800] [1055768] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'settings'
+[2022-08-09 09:47:51 +0800] [1055768] [INFO] Worker exiting (pid: 1055768)
+[2022-08-09 09:47:51 +0800] [1055769] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/geventlet.py", line 134, in init_process
+    super().init_process()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/beifen/comic-sakura/wsgi_gunicorn.py", line 1, in <module>
+    from app.factory import create_app
+  File "/root/beifen/comic-sakura/app/factory.py", line 9, in <module>
+    from settings import get_config, get_logging_config
+ModuleNotFoundError: No module named 'settings'
+[2022-08-09 09:47:51 +0800] [1055769] [INFO] Worker exiting (pid: 1055769)
+[2022-08-09 09:47:51 +0800] [1055763] [WARNING] Worker with pid 1055767 was terminated due to signal 15
+[2022-08-09 09:47:51 +0800] [1055763] [WARNING] Worker with pid 1055768 was terminated due to signal 15
+[2022-08-09 09:47:51 +0800] [1055763] [WARNING] Worker with pid 1055769 was terminated due to signal 15
+[2022-08-09 09:47:51 +0800] [1055763] [INFO] Shutting down: Master
+[2022-08-09 09:47:51 +0800] [1055763] [INFO] Reason: Worker failed to boot.
+[2022-08-09 09:53:38 +0800] [1055784] [INFO] Starting gunicorn 20.1.0
+[2022-08-09 09:53:38 +0800] [1055784] [INFO] Listening at: http://0.0.0.0:5000 (1055784)
+[2022-08-09 09:53:38 +0800] [1055784] [INFO] Using worker: eventlet
+[2022-08-09 09:53:38 +0800] [1055787] [INFO] Booting worker with pid: 1055787
+[2022-08-09 09:53:38 +0800] [1055788] [INFO] Booting worker with pid: 1055788
+[2022-08-09 09:53:39 +0800] [1055789] [INFO] Booting worker with pid: 1055789
+[2022-08-09 09:53:39 +0800] [1055790] [INFO] Booting worker with pid: 1055790
+[2022-08-09 10:01:20 +0800] [1055784] [INFO] Handling signal: int
+[2022-08-09 10:01:20 +0800] [1055787] [INFO] Worker exiting (pid: 1055787)
+[2022-08-09 10:01:21 +0800] [1055789] [INFO] Worker exiting (pid: 1055789)
+[2022-08-09 10:01:21 +0800] [1055790] [INFO] Worker exiting (pid: 1055790)
+[2022-08-09 10:01:21 +0800] [1055788] [INFO] Worker exiting (pid: 1055788)
+[2022-08-09 10:01:22 +0800] [1055784] [INFO] Shutting down: Master
+[2022-08-09 10:43:03 +0800] [1055848] [INFO] Starting gunicorn 20.1.0
+[2022-08-09 10:43:03 +0800] [1055848] [INFO] Listening at: http://0.0.0.0:5000 (1055848)
+[2022-08-09 10:43:03 +0800] [1055848] [INFO] Using worker: eventlet
+[2022-08-09 10:43:03 +0800] [1055851] [INFO] Booting worker with pid: 1055851
+[2022-08-09 10:43:03 +0800] [1055852] [INFO] Booting worker with pid: 1055852
+[2022-08-09 10:43:03 +0800] [1055853] [INFO] Booting worker with pid: 1055853
+[2022-08-09 10:43:03 +0800] [1055854] [INFO] Booting worker with pid: 1055854
+[2022-08-09 10:44:45 +0800] [1055848] [INFO] Handling signal: int
+[2022-08-09 10:44:45 +0800] [1055852] [INFO] Worker exiting (pid: 1055852)
+[2022-08-09 10:44:45 +0800] [1055853] [INFO] Worker exiting (pid: 1055853)
+[2022-08-09 10:44:46 +0800] [1055854] [INFO] Worker exiting (pid: 1055854)
+[2022-08-09 10:44:46 +0800] [1055851] [INFO] Worker exiting (pid: 1055851)
+[2022-08-09 10:44:46 +0800] [1055848] [INFO] Shutting down: Master
+[2022-08-09 10:45:13 +0800] [1055860] [INFO] Starting gunicorn 20.1.0
+[2022-08-09 10:45:13 +0800] [1055860] [INFO] Listening at: http://0.0.0.0:5000 (1055860)
+[2022-08-09 10:45:13 +0800] [1055860] [INFO] Using worker: eventlet
+[2022-08-09 10:45:13 +0800] [1055863] [INFO] Booting worker with pid: 1055863
+[2022-08-09 10:45:13 +0800] [1055864] [INFO] Booting worker with pid: 1055864
+[2022-08-09 10:45:13 +0800] [1055865] [INFO] Booting worker with pid: 1055865
+[2022-08-09 10:45:13 +0800] [1055867] [INFO] Booting worker with pid: 1055867
+[2022-08-09 14:04:20 +0800] [1055860] [INFO] Handling signal: hup
+[2022-08-09 14:04:20 +0800] [1055860] [INFO] Hang up: Master
+[2022-08-09 14:04:20 +0800] [1055860] [WARNING] Worker with pid 1055863 was terminated due to signal 1
+[2022-08-09 14:04:20 +0800] [1055860] [WARNING] Worker with pid 1055864 was terminated due to signal 1
+[2022-08-09 14:04:20 +0800] [1055860] [WARNING] Worker with pid 1055865 was terminated due to signal 1
+[2022-08-09 14:04:20 +0800] [1055860] [WARNING] Worker with pid 1055867 was terminated due to signal 1
+[2022-08-09 14:04:20 +0800] [1055860] [INFO] Unhandled exception in main loop
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 106, in get_config_from_filename
+    util.warn(msg)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/util.py", line 582, in warn
+    print("!!!", file=sys.stderr)
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 36, in do_load_config
+    self.load_config()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_config
+    super().load_config()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 174, in load_config
+    self.load_config_from_file(args.config)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 153, in load_config_from_file
+    return self.load_config_from_module_name_or_filename(location=filename)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 137, in load_config_from_module_name_or_filename
+    cfg = self.get_config_from_filename(filename)
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 113, in get_config_from_filename
+    print("Failed to read config file: %s" % filename, file=sys.stderr)
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 253, in handle_hup
+    self.reload()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/arbiter.py", line 448, in reload
+    self.app.reload()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 61, in reload
+    self.do_load_config()
+  File "/root/beifen/flask-comic/movies/lib/python3.6/site-packages/gunicorn/app/base.py", line 38, in do_load_config
+    print("\nError: %s" % str(e), file=sys.stderr)
+OSError: [Errno 5] Input/output error
+[2022-08-10 09:38:12 +0800] [1057580] [INFO] Starting gunicorn 20.1.0
+[2022-08-10 09:38:12 +0800] [1057580] [INFO] Listening at: http://0.0.0.0:5000 (1057580)
+[2022-08-10 09:38:12 +0800] [1057580] [INFO] Using worker: eventlet
+[2022-08-10 09:38:12 +0800] [1057583] [INFO] Booting worker with pid: 1057583
+[2022-08-10 09:38:13 +0800] [1057584] [INFO] Booting worker with pid: 1057584
+[2022-08-10 09:38:13 +0800] [1057585] [INFO] Booting worker with pid: 1057585
+[2022-08-10 09:38:13 +0800] [1057586] [INFO] Booting worker with pid: 1057586
+[2022-08-10 10:19:05 +0800] [1057585] [INFO] Worker reloading: /root/beifen/comic-sakura/app/blueprints/sakura_vod_info.py modified
+[2022-08-10 10:19:05 +0800] [1057585] [INFO] Worker exiting (pid: 1057585)
+[2022-08-10 10:19:05 +0800] [1057583] [INFO] Worker reloading: /root/beifen/comic-sakura/app/blueprints/sakura_vod_info.py modified
+[2022-08-10 10:19:05 +0800] [1057583] [INFO] Worker exiting (pid: 1057583)
+[2022-08-10 10:19:05 +0800] [1057584] [INFO] Worker reloading: /root/beifen/comic-sakura/app/blueprints/sakura_vod_info.py modified
+[2022-08-10 10:19:05 +0800] [1057584] [INFO] Worker exiting (pid: 1057584)
+[2022-08-10 10:19:06 +0800] [1057586] [INFO] Worker reloading: /root/beifen/comic-sakura/app/blueprints/sakura_vod_info.py modified
+[2022-08-10 10:19:06 +0800] [1057586] [INFO] Worker exiting (pid: 1057586)
+[2022-08-10 10:19:06 +0800] [1057694] [INFO] Booting worker with pid: 1057694
+[2022-08-10 10:19:06 +0800] [1057695] [INFO] Booting worker with pid: 1057695
+[2022-08-10 10:19:06 +0800] [1057696] [INFO] Booting worker with pid: 1057696
+[2022-08-10 10:19:07 +0800] [1057697] [INFO] Booting worker with pid: 1057697
