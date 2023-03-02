@@ -12,4 +12,4 @@ cd到 DockerFile 所在的目录下，执行如下命令
 
 构建镜像： `docker build -t sakura_comic:v1.0 .`
 
-运行： `docker run sakura_comic:v1.0`
+运行： `docker run [image_id]`
