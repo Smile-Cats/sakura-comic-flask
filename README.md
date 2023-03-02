@@ -4,7 +4,7 @@
 2. 技术栈，前端： vue3 + vite + element plus, 后端：flask + gunicorn + mysql
 3. 预览： http://139.196.138.236:8000/#/
 
-# Docker 安装
+## Docker 运行
 
 ## 构建镜像
 
@@ -13,3 +13,7 @@ cd到 DockerFile 所在的目录下，执行如下命令
 构建镜像： `docker build -t sakura_comic:v1.0 .`
 
 运行： `docker run [image_id]`
+
+## gunicorn运行
+
+`gunicorn --config config/gun.conf -D  wsgi_gunicorn:app`
