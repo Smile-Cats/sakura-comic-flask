@@ -1,0 +1,26 @@
+COMMON: &common #标识
+  DEBUG: False
+  SECRET_KEY: insecure
+  ENV: production
+  SCHEDULER_TIMEZONE: Asia/Shanghai
+  LOGGING_PATH: ./logs
+
+  # 数据库连接 需要修改成自己对应的
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://user:password@127.0.0.1:3306/movie'
+  SQLALCHEMY_TRACK_MODIFICATIONS: False
+  SQLALCHEMY_POOL_RECYCLE: 1800  # 每隔1800秒回收连接
+  SQLALCHEMY_ENGINE_OPTIONS: {'pool_pre_ping': True}  # 每次db前检查连接是否可用
+  SCHEDULER_API_ENABLED: True
+
+
+DEVELOPMENT: &development
+  <<: *common # 继承common，没有重新定义的变量，使用common变量值
+  ENV: development
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://user:password@127.0.0.1:3306/test'
+  DEBUG: True
+
+PRODUCTION: &production
+  <<: *common
+  ENV: production
+  SECRET_KEY: secret_key
+  REDIS_HOST: flask_redis

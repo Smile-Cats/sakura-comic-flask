@@ -5,6 +5,14 @@
 2. 技术栈，前端： vue3 + vite + element plus, 后端：flask + gunicorn + mysql
 3. 预览： http://139.196.138.236:8000/#/
 
+## 下载
+
+`git clone https://github.com/Smile-Cats/sakura-comic-flask.git`
+
+下载后需修改 **config/config.yaml** 下配置信息
+
+数据库建表语句: **config/create_table.sql**
+
 ## Docker 运行
 
 cd到 DockerFile 所在的目录下，执行如下命令
