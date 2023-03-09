@@ -8,6 +8,6 @@ ADD . /comic_sakura
 WORKDIR /comic_sakura
 
 # 安装支持
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple
 
 CMD ["flask", "run", "-h", "0.0.0.0"]

@@ -24,3 +24,7 @@ cd到 DockerFile 所在的目录下，执行如下命令
 ## gunicorn运行
 
 `gunicorn --config config/gun.conf -D  wsgi_gunicorn:app`
+
+## python文件执行
+
+`python3 run.py`
